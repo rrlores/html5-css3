@@ -1,4 +1,4 @@
-#banner{  
+.banner{  
     width: 100%;
 }
 
@@ -14,7 +14,7 @@ P{
     text-align: center;
 }
 
-#missao{
+.missao{
     font-size: 20px;
 }
 
