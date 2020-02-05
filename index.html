@@ -6,57 +6,68 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Barbearia Alura</title>
 	<link rel="stylesheet" href="./css/reset.css">
-	<link rel="stylesheet" href="./css/style-home.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
 	<header>
-		<div class="cabecalho">
-			<h1><img src="./assets/img/logo.png" alt="Logo Babearia Alura"></h1>
+		<div class="caixa">
+			<h1><img src="./assets/img/logo.png"></h1>
+
 			<nav>
-				<ul class="navegacao">
+				<ul>
 					<li><a href="./index.html">Home</a></li>
 					<li><a href="./assets/produtos/produtos.html">Produtos</a></li>
-					<li><a href="../contato/contato.html">Contato</a></li>
+					<li><a href="./assets/contato/contato.html">Contato</a></li>
 				</ul>
 			</nav>
 		</div>
-		<img class="banner" src="./assets/img/banner.jpg" alt="Barbearia">
 	</header>
 
+	<img class="banner" src="./assets/img/banner.jpg">
+
 	<main>
-		<div class="principal">
-			<h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
+		<section class="principal">
+			<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
 
-			<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o
-				mercado o que há de melhor para o
-				seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos
-				clientes a
-				cada
-				dia.</p>
+			<img class="utensilios" src="./assets/img/utensilios.jpg" alt="Utensílios de um barbeiro.">
 
-			<p class="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de
-						vida aos clientes"</strong>.</em></p>
+			<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor
+				para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos
+				clientes a cada dia.</p>
 
-			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O
-				atendimento possui padrão de
-				excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-		</div>
-		<div class="beneficios">
-			<h3 class="titulo-centralizado">Beneficios</h3>
-			<ul class="lista">
-				<li class="itens">Atendimnto aos Clientes</li>
-				<li class="itens">Espaço Diferenciado</li>
+			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos
+						clientes"</strong>.</em></p>
+
+			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui
+				padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+		</section>
+
+		<section class="mapa">
+			<h3 class="titulo-principal">Nosso estabeleciomento</h3>
+			<p>Nosso estabeleciomento esta no coração da cidade.</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.7193802170827!2d-46.626628684407684!3d-23.50661506545945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef6283c6753e7%3A0xc96724dd19a6d04b!2sInstituto%20da%20Oportunidade%20Social!5e0!3m2!1spt-BR!2sbr!4v1580605094371!5m2!1spt-BR!2sbr" width="1080" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>			
+		</section>
+
+		<section class="beneficios">
+			<h3 class="titulo-principal">Benefícios</h3>
+
+			<ul>
+				<li class="itens">Atendimento aos Clientes</li>
+				<li class="itens">Espaço diferenciado</li>
 				<li class="itens">Localização</li>
 				<li class="itens">Profissionais Qualificados</li>
 			</ul>
-			<img src="assets/img/beneficios.jpg" alt="Homem fazendo a barba." class="imagembeneficios">
-		</div>
+
+			<img src="./assets/img/beneficios.jpg" class="imagembeneficios">
+		</section>
 	</main>
 
 	<footer>
-		<img src="./assets/img/logo-branco.png" alt="Barbearia">
-		<p class="copyright">&copy; Copyright Barbearia Alura - 2020</p>
+		<img src="./assets/img/logo-branco.png">
+		<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
 	</footer>
 
 </body>
